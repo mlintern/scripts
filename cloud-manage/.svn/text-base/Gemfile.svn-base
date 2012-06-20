@@ -1,0 +1,5 @@
+source 'http://rubygems.org'
+
+gem 'fog'
+gem 'net-ssh'
+gem 'progressbar'
