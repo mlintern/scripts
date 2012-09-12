@@ -26,7 +26,6 @@ echo -n "Processing "
 progress_ind &
 pid=$!
 
-# Thanks Stephen Concannon for sending this fix.
 # If the main script is interrupted, this line takes care
 # of stopping the progress indicator
 trap "stop_progress $pid; exit" INT TERM EXIT
