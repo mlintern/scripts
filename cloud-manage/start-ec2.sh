@@ -303,6 +303,9 @@ case $hosttype in
 	cbtstsrv|testcallsrv)
 		append_groups "Test CB" 'TestGroup';
 		;;
+    	testamtsrv)
+		append_groups "Test Environment AppSrv" "Test CB" 'TestGroup';
+		;;
 	blogapptst|presapptst|testblogsrv|testpressrv)
 		append_groups "Test Environment AppSrv" 'TestGroup';
 		;;
