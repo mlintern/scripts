@@ -7,7 +7,7 @@ RANDOM=$$;
 
 export PATH=/bin:/usr/bin:
 
-LUNCH_FILE='/root/not_lunch_destinations.txt';
+LUNCH_FILE='not_lunch_destinations.txt';
 SUBJECT='Daily Lunch Suggestions';
 TO='dmcfadden@eng.compendiumblogware.com aparker@eng.compendiumblogware.com mlintern@compendium.com phinton@eng.compendiumblogware.com sgregory@compendium.com ijohnson@compendium.com';
 SCRATCH_FILE='/tmp/lunch-scratch.txt';

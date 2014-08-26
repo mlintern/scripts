@@ -8,10 +8,10 @@ RANDOM=$$;
 export PATH=/bin:/usr/bin:
 
 #LUNCH_FILE='/root/not_bar_destinations.txt';
-LUNCH_FILE='/root/not_bar_destinations_weighted.txt';
+LUNCH_FILE='not_bar_destinations_weighted.txt';
 SUBJECT='Thursday Bar Suggestions';
 #TO='dmcfadden@eng.compendiumblogware.com aparker@eng.compendiumblogware.com mlintern@compendium.com sgregory@compendium.com ijohnson@compendium.com jpaden@compendium.com phinton@eng.compendiumblogware.com ps@compendium.com';
-TO='engineering@compendium.com ps@compendium.com jpaden@compendium.com';
+TO='systems@compendium.com';
 SCRATCH_FILE='/tmp/bar-scratch.txt';
 
 touch $SCRATCH_FILE;
@@ -67,5 +67,5 @@ echo "Compendium " >> $SCRATCH_FILE;
 echo "partygorilla@compendium.com " >> $SCRATCH_FILE;
 echo "@PartyGorillaCPO " >> $SCRATCH_FILE;
 
-cat $SCRATCH_FILE | mail -r PartyGorilla -s "$SUBJECT" mlintern@compendium.com
-#cat $SCRATCH_FILE | mail -r PartyGorilla -s "$SUBJECT" $TO
+#cat $SCRATCH_FILE | mail -s "$SUBJECT" mlintern@compendium.com
+cat $SCRATCH_FILE | mail -s "$SUBJECT" $TO

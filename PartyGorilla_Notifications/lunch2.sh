@@ -5,7 +5,7 @@
 # Seed $RANDOM
 RANDOM=$$;
 
-LUNCH_FILE='/root/not_lunch_destinations.txt';
+LUNCH_FILE='not_lunch_destinations.txt';
 SUBJECT='Daily Lunch Suggestions 2';
 TO='dmcfadden@eng.compendiumblogware.com aparker@eng.compendiumblogware.com mlintern@compendium.com phinton@eng.compendiumblogware.com sgregory@compendium.com ijohnson@compendium.com';
 SCRATCH_FILE='/tmp/lunch-scratch.txt';
