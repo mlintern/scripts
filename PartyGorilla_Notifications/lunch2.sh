@@ -24,6 +24,4 @@ do
         echo $DEST >> $SCRATCH_FILE;
 done
 
-#cat $SCRATCH_FILE | mail -s "$SUBJECT" mlintern@compendium.com
-cat $SCRATCH_FILE | /bin/mail -r PartyGorilla -s "$SUBJECT" mlintern@compendium.com
-#cat $SCRATCH_FILE | mail -r PartyGorilla -s "$SUBJECT" $TO
+cat $SCRATCH_FILE | mail -s "$SUBJECT" $TO

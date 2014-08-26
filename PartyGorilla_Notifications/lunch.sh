@@ -49,5 +49,4 @@ echo "partygorilla@compendium.com " >> $SCRATCH_FILE;
 echo "@PartyGorillaCPO " >> $SCRATCH_FILE;
 
 #cat $SCRATCH_FILE | mail -s "$SUBJECT" mlintern@compendium.com
-#cat $SCRATCH_FILE | mail -r PartyGorilla -s "$SUBJECT" mlintern@compendium.com
-cat $SCRATCH_FILE | mail -r PartyGorilla -s "$SUBJECT" $TO
+cat $SCRATCH_FILE | mail -s "$SUBJECT" $TO
