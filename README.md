@@ -1,4 +1,4 @@
 scripts
 =======
 
-Scripts that I commonly use
+Useful scripts or scripts that I commonly use
