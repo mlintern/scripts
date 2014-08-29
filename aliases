@@ -1,0 +1,3 @@
+alias b="cd /Users/mlintern/dev/blog/application/trunk"
+alias p="cd /Users/mlintern/dev/padrino_api"
+alias s="cd /Users/mlintern/dev/systems"
