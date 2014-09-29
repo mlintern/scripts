@@ -60,7 +60,7 @@ NC="\e[m"               # Color Reset
 
 #   Change Prompt
 #   ------------------------------------------------------------
-    export PS1="${Green}--------------------------------------------------------\n| ${Red}(\u) ${White}@ ${Cyan}\h ${Purple}\w ${White}\n| => "
+    export PS1="${Green}--------------------------------------------------------\n${White}| ${Red}\u${White}@${Cyan}\h ${Purple}\w ${White}\n| => "
     export PS2="| => "
 
 #   Set Paths
