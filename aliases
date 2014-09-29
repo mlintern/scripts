@@ -3,6 +3,12 @@ alias b="cd /Users/mlintern/dev/blog/application/trunk"
 alias p="cd /Users/mlintern/dev/padrino_api"
 alias s="cd /Users/mlintern/dev/systems"
 
+# csshX shortcuts
+alias csshx="csshX"
+alias csshx1="csshX -screen 1"
+alias csshx2="csshX -screen 2"
+alias csshx3="csshX -screen 3"
+
 # Tar shortcuts
 alias tarup="tar -cvzf"
 alias untar="tar -xvf"
