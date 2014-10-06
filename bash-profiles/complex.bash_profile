@@ -3,15 +3,16 @@
 #  Description:  This file holds all my BASH configurations and aliases
 #
 #  Sections:
-#  1.   Environment Configuration
-#  2.   Make Terminal Better (remapping defaults and adding functionality)
-#  3.   File and Folder Management
-#  4.   Searching
-#  5.   Process Management
-#  6.   Networking
-#  7.   System Operations & Information
-#  8.   Web Development
-#  9.   Reminders & Notes
+#  1.   Colors
+#  2.   Environment Configuration
+#  3.   Make Terminal Better (remapping defaults and adding functionality)
+#  4.   File and Folder Management
+#  5.   Searching
+#  6.   Process Management
+#  7.   Networking
+#  8.   System Operations & Information
+#  9.   Web Development
+#  10.  Reminders & Notes
 #
 #  ---------------------------------------------------------------------------
 
