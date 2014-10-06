@@ -5,11 +5,12 @@ require 'active_support/core_ext/hash/conversions'
 @cookie = "B=/"
 
 def show(response)
-  puts response.body,puts "\n"
-  puts response.code,puts "\n"
-  puts response.message,puts "\n"
-  puts @cookie,puts "\n"
-  puts response.headers.inspect,puts "\n\n\n\n"
+  puts response.body
+  puts response.code
+  puts response.message
+  puts @cookie
+  puts response.headers.inspect
+  puts "\n\n\n\n"
 end
 
 #
