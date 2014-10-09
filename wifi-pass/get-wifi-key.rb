@@ -78,7 +78,9 @@ text = response.body
 words = text.split(/\W+/)
 extra = ARGV[2] || ""
 words.each do |word|
-  text.gsub!(word,extra+word)
+  if word.length > 1
+    text.gsub!(word,extra+word)
+  end
 end
 
 puts text
