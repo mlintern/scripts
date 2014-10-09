@@ -1,0 +1,3 @@
+> bundle install
+> ruby get-wifi-key.rb <username> <pass> <pre word extra>
+

@@ -74,5 +74,11 @@ location = response.headers["location"]
 #
 
 response = HTTParty.get( location, :headers => { 'Cookie' => @cookie } )
+text = response.body
+words = text.split(/\W+/)
+extra = ARGV[2] || ""
+words.each do |word|
+  text.gsub!(word,extra+word)
+end
 
-puts response
+puts text
