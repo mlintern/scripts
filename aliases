@@ -2,6 +2,7 @@
 alias b="cd /Users/mlintern/dev/blog/application/trunk"
 alias p="cd /Users/mlintern/dev/padrino_api"
 alias s="cd /Users/mlintern/dev/systems"
+alias c="cd /Users/mlintern/dev/content_router"
 
 # csshX shortcuts
 alias csshx="csshX"
@@ -12,3 +13,6 @@ alias csshx3="csshX -screen 3"
 # Tar shortcuts
 alias tarup="tar -cvzf"
 alias untar="tar -xvf"
+
+# Helpful Shortcuts
+alias pjt='python -mjson.tool'
