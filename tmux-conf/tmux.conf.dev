@@ -83,13 +83,14 @@ set -g mode-mouse off
  
 # color
 set -g default-terminal "screen-256color"
-  
-#new -s dev # dev session
-#neww -n bash
-#neww -n bash
-#neww -n padrino 'cd ~/template_manager; padrino start' # start and keep padrino running
-#neww -n mysql 'mysql -uroot compendium_dev' # mysql shell
-#neww -n logs 'sudo tail -f /var/log/messages /var/log/compendium/blog/*' # logs
 
 # Set Histort Limit
 set-option -g history-limit 10000
+
+new -s dev # dev session
+neww -n content_router 'cd ~/content_router; make run; bash -l;'
+neww -n padrino 'cd ~/padrino_api; padrino start; bash -l' # start and keep padrino running
+neww -n image_manager 'cd ~/image_manager; ./start.sh bash -l;'
+neww -n cpdm_log 'sudo tail -f /var/log/compendium/blog/allMessages.log; bash -l'
+neww -n wrkr_log 'sudo tail -f /var/log/compendium/blog/worker.log; bash -l' #worker log
+neww -n msgs_log 'sudo tail -f /var/log/messages; bash -l' # logs
