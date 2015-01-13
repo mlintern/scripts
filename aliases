@@ -1,7 +1,8 @@
 # Directory shortcuts
 alias b="cd /Users/mlintern/dev/blog/application/trunk"
 alias p="cd /Users/mlintern/dev/padrino_api"
-alias s="cd /Users/mlintern/dev/systems"
+alias s="cd /Users/mlintern/dev/shared"
+alias sys="cd /Users/mlintern/dev/systems"
 alias c="cd /Users/mlintern/dev/content_router"
 
 # csshX shortcuts
