@@ -17,3 +17,4 @@ alias untar="tar -xvf"
 
 # Helpful Shortcuts
 alias pjt='python -mjson.tool'
+alias deploy_dev_to_test="ssh jenkins 'salt -N deploy cpdm.deploy blog=latest padrino_api=latest assets=latest channel=dev'"
