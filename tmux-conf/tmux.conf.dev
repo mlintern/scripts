@@ -91,6 +91,4 @@ new -s dev # dev session
 neww -n content_router 'cd ~/content_router; make run; bash -l'
 neww -n padrino 'cd ~/padrino_api; padrino start; bash -l' # start and keep padrino running
 neww -n image_manager 'cd ~/image_manager; ./start.sh; bash -l'
-#neww -n cpdm_log 'sudo tail -f /var/log/compendium/blog/allMessages.log; bash -l'
-#neww -n wrkr_log 'sudo tail -f /var/log/compendium/blog/worker.log; bash -l' #worker log
-#neww -n msgs_log 'sudo tail -f /var/log/messages; bash -l' # logs
+neww -n workers_log 'sudo service AsyncWorkers start; tail -f /var/log/compendium/blog/worker.log; bash -l' # start tailing workers log

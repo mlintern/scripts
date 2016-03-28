@@ -1,18 +1,21 @@
 #!/bin/sh
 
-file=~/outsideIP.txt
+FILE=~/outsideIP.txt
 
-if [ ! -e $file ]
-  then
-	touch $file
-	echo "0.0.0.0" > $file
+if [ ! -e $FILE ]
+	then
+	touch $FILE
+	echo "0.0.0.0" > $FILE
 fi
 
-ipa=$(cat $file)
-ipb=$(curl icanhazip.com)
+IPA=$(cat $FILE)
+IPB=$(curl icanhazip.com)
+EMAIL='mark.lintern@oracle.com'
+FROM='sender@oracle.com'
+FROMNAME="Sender <sender@oracle.com>"
 
-if [ $ipa != $ipb ]
-  then
-	echo "The Outside IP address has changed from $ipa to $ipb" | mail -s "IP Address Change" mlintern@compendium.com
-	echo $ipb > $file
+if [ $IPA != $IPB ]
+	then
+	echo "The Outside IP address has changed from $IPA to $IPB" | mail -s "IP Address Change" $EMAIL
+	echo $IPB > $FILE
 fi
