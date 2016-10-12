@@ -7,8 +7,8 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # Source aliases
-if [ -f ~/.aliases ]; then
-        . ~/.aliases
+if [ -f ~/utilities/.aliases ]; then
+        . ~/utilities/.aliases
 fi
 
 # User specific aliases and functions

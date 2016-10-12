@@ -1,5 +1,7 @@
+# encoding: utf-8
+# frozen_string_literal: true
 source 'https://rubygems.org'
 
 gem 'httparty'
 gem 'nokogiri'
-gem 'activesupport', :require => 'active_support/core_ext/hash'
+gem 'activesupport', require: 'active_support/core_ext/hash'
