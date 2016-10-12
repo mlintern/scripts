@@ -16,6 +16,7 @@ alias ssawstop="sudo service AsyncWorkers stop";
 alias ssaws="ssawstart";
 
 alias webpackpc="webpack --progress -color";
+alias wpc="webpackpc"
 
 alias tarup="tar -cvzf"
 alias untar="tar -xvf"
